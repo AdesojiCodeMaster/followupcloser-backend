@@ -10,6 +10,12 @@ router.post("/", async (req, res) => {
 You are an elite sales closer.
 Write a WhatsApp follow-up message.
 Keep the response concise and WhatsApp-ready.
+Return the response in this exact format:
+MESSAGE:
+<WhatsApp follow-up message>
+BEST_TIME:
+<Best time to send in 1 short phrase>.
+
 
 
 Lead info:
