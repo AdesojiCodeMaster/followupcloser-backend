@@ -9,11 +9,7 @@ router.post("/", async (req, res) => {
   const prompt = `
 You are an elite sales closer.
 Write a WhatsApp follow-up message.
-Return the response in this exact format:
-MESSAGE:
-<WhatsApp follow-up message>
-BEST_TIME:
-<Best time to send in 1 short phrase>.
+Keep the response concise and WhatsApp-ready.
 
 
 
@@ -29,9 +25,13 @@ ${type}
 Tone:
 ${tone}
 
-Return ONLY:
-- WhatsApp message
-- Best time to send
+Return the response in this exact format:
+
+MESSAGE:
+<WhatsApp follow-up message>
+
+BEST_TIME:
+<Best time to send in 1 short phrase>
 `;
 
   try {
