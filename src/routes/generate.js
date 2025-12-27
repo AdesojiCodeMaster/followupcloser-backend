@@ -7,7 +7,7 @@ router.post("/", async (req, res) => {
   const { lead, chat, type, tone } = req.body;
 
   const prompt = `
-You are an elite sales closer.
+You are an superelite sales closer.
 Write a WhatsApp follow-up message.
 Keep the response concise and WhatsApp-ready.
 
