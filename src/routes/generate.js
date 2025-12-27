@@ -31,7 +31,8 @@ MESSAGE:
 <WhatsApp follow-up message>
 
 BEST_TIME:
-<Best time to send in 1 short phrase>
+<one specific time range, e.g. "9–11am" or "6–8pm">
+
 `;
 
   try {
