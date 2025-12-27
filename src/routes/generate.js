@@ -9,6 +9,8 @@ router.post("/", async (req, res) => {
   const prompt = `
 You are an elite sales closer.
 Write a WhatsApp follow-up message.
+Keep the response concise and WhatsApp-ready.
+
 
 Lead info:
 ${lead}
