@@ -39,7 +39,7 @@ BEST_TIME:
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       messages: [{ role: "user", content: prompt }],
-      max_tokens: 200
+      max_tokens: 180
     });
 
     res.json({ result: completion.choices[0].message.content });
